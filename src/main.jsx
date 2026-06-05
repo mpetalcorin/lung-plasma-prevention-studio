@@ -36,6 +36,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import EvidenceMatrix from "./components/EvidenceMatrix";
 import "./style.css";
 
 const proteins = [
@@ -349,6 +350,8 @@ This is a research education tool only. It is not a diagnostic tool or treatment
           </AnimatePresence>
         </div>
       </section>
+
+      <EvidenceMatrix />
 
       <section className="dashboard-grid">
         <section className="panel">
